@@ -27,7 +27,15 @@ Changes to be committed:
 git config --global user.name "your name"
 git config --global user.email "your_email@youremail.com"
 
-* 7.
+* 7.git remote add origin git@github.com:SherlockConstine/MyGitStep2.git
+
+掉线问题：
+github可能会"掉线"。会报fatal: remote origin already exists.
+git remote rm origin 
+再输入：
+git remote add origin git@github.com:SherlockConstine/MyGitStep2.git
+
+* 8.挂github ：git push -u origin master
 
 
 
